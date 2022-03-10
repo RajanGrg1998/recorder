@@ -29,6 +29,4 @@ subprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-ext {
-      flutterFFmpegPackage  = "<flutter ffmpeg package name listed in section 2.1>"
-  }
+
